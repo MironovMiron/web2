@@ -1,0 +1,227 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; color: black;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+header{
+    font-family: 'Exo 2';
+    background-color: #fff;
+    position: fixed;
+    height: 60px;
+    width: 100%; 
+    top:0;
+}
+
+body{
+    font-family: 'Exo 2';
+    margin-top: 60px;
+    background-color: #F5F5F5;
+}
+
+nav{
+    margin: 0px 98px 0px 100px;
+}
+
+.header__container{
+    padding-top: 7px;
+    margin: 0 auto 0 auto;
+    width: 1242px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+.header__container-lable{
+    font-size: 40px;
+}
+
+
+.header__container-lable-2{
+    color: #579AFF;
+}
+
+
+.header__container-search{
+    font-size: 16px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    align-items: center;
+    display: flex;
+}
+
+.header__container-search input{
+    background-color: #f3f3f3;
+    padding-left: 11px;
+    width: 317px;
+}
+.header__container-search::placeholder{
+    color: #d2d2d2;
+    font-size: 16px;
+}
+.header__container-search-icon{
+    position: relative;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.header__container-menu{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.header__container-menu-links:link{
+    color:#A1A1A1;
+}
+
+.header__container-menu-links:visited{
+    color: #a1a1a1;
+}
+
+
+.header__container-menu-links:hover{
+    color:#579AFF;
+}
+
+.header__container-menu-signin{
+    display: flex;
+    align-items: center;
+}
+
+.body__countainer-lable{
+    display: flex;
+    margin: 0 auto 0 auto;
+    justify-content: space-between;
+    padding: 30px 220px 10px 10px;
+    width: 1242px;
+}
+
+.body__countainer-lable span{
+    border-bottom: 1px solid #579AFF;
+}
+
+.body__countainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 0 auto 0 auto;
+    row-gap: 20px;
+    width: 1242px;
+}
+
+.body__countainer-content{
+    display: flex;
+    width: 820px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.body__countainer-top{
+    width: 190px;
+    height: 337px; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body__countainer-top-category{
+    color: #4B4B4B;
+    font-size: 13px; 
+}
+
+.body__countainer-top-link:hover{
+    color:#579AFF;    
+}
+
+.body__countainer-top-image{
+    width: 190px;
+    height: 270px;
+    border-radius: 5px, 5px, 0px, 0px;
+}
+
+.body__countainer-week-update{
+    padding: 152px, 0px, 0px, 104px;
+    display: flex;
+    width: 400px;
+    height: 704px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.body__countainer-week-update-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 390px;
+}
+.body__countainer-week-update-box-image{
+    width: 50px;
+    height: 75px;
+    border-radius: 5px 0px 0px 5px; 
+    float: left; 
+}
+.body__countainer-week-update-box-text{
+    margin-left: 57px;
+}
+.body__countainer-week-update-box-text-1{
+    font-size: 12px;
+    font-weight: 300; 
+}
+.body__countainer-week-update-box-text-2{
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+.body__countainer-week-update-box-text-3{
+    color: #579AFF;
+    font-size: 12px; 
+    padding-top: 10px;
+}

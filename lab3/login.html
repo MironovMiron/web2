@@ -1,0 +1,64 @@
+<html lang = "ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.5">
+    <title>
+        Authorization
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700" rel="stylesheet">
+    <link rel="stylesheet" href="./sources/styles/login.css">
+</head>
+
+
+
+<body>
+   <div class="auth-layout">
+      <div class="auth-layout__row">
+        <div class="auth-layout__cell">
+            <div class="auth-form-title">Авторизация</div>
+      <div class="auth-form tabs">
+      <a href="index.html" class="auth-form-back">
+      </a>
+<form method="POST" action="#" accept-charset="UTF-8">
+  <input type="hidden" name="from" value="#">
+  <div class="form__subtitle">Вход через никнейм или email</div>
+  <div class="form__field">
+    <div class="form__input-wrap">
+      <input type="text" name="email" value="" class="form__input" placeholder="Никнейм или email" required="">
+    </div>
+    
+  </div>
+  <div class="form__field">
+    <div class="form__input-wrap">
+      <input type="password" name="password" class="form__input" placeholder="Пароль" required="">
+    </div>
+    
+  </div>
+  <div class="form__field">
+    <label class="control control_checkbox">
+      <input checked="checked" type="checkbox" name="remember">
+      <span class="control__text">Запомнить меня</span>
+    </label>
+  </div>
+  <div class="form__footer">
+    <button type="submit" class="button button_primary button_md button_block">Войти</button>
+  </div>
+
+   <div class="auth-footer">
+    <span class="auth-footer__label">
+      Вы забыли пароль?
+    </span>
+    <a href="/index.html">
+      Восстановить
+    </a>
+  </div>
+</form>
+      </div>
+    </div>
+          </div>
+      </div>
+    </div>
+</body>
